@@ -1,6 +1,6 @@
 variable "subnet_id" {
   type    = string
-  default = "subnet-022759a44dd1b0aaf"
+  default = "subnet-00985ffd49866bdcd"
 }
 
 variable "region" {

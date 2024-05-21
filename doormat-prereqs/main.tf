@@ -5,7 +5,9 @@ terraform {
     }
   }
 }
-
+provider "aws" {
+  region = "us-east-1"
+}
 # Organization Name:
 variable "tfc_organization" {
   type    = string
